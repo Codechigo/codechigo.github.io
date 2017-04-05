@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+background-image:url("post_67_13.jpg");
+   background-color:grey;
+}
+
+h2{
+color: black;
+border-bottom: 1px;
+border-color: black;
+text-align: center;
+}
+
+h3{
+text-align:left;
+}
+
+p{
+color: black;
+text-align:left;
+ font-family: 'Ruda', sans-serif
+font-weight: 900;
+font-size:16px;
+font-style: bold;
+}
+
+ol li{
+text-align:left;
+}
+
+.boxed{
+  background-color: white;
+  opacity:0.5;
+  border-style: dotted;
+  margin: auto auto;
+  top: 100px;
+position: relative;
+  padding: 0px 0px 0px 0px;
+  width: 70%;
+  border-color: grey;
+}
+
+.nav a {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 15px;
+  text-transform: uppercase;
+
+
+}
+
+.nav a:link,a:visited{
+font-weight:bold;
+background-color:black;
+text-align:center;
+text-decoration:italic;
+padding:4px;
+display:inline;
+float:center;
+ padding-left:25px;
+  padding-right:25px;
+
+}
+
+
+.nav ul{
+background-color: black;
+padding: 16px;
+overflow: hidden;
+left:0;
+top:0;
+z-index:9999;
+width:100%;
+margin: auto;
+position:fixed;
+
+}
+
+.nav a:hover,a:active{
+background-color: green;
+}
+
+
+.nav li {
+  display: inline;
+  color: blue;
+left:0;
+top:0;
+width:100%;
+margin: auto;
+}
+
+.nav ul{
+position:fixed;
+top: 0;
+width: 100%;
+}
+
+.nav img{
+float: left;
+}
